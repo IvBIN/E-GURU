@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header .container{
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 57px;
+}
+.logo{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 126px;
+}
+.btn,
+.auth{
+    color: #5c5555;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.btn:not(:last-child){
+    margin-right: 76px;
+}
+.btn_active,
+.btn:hover{
+    color: #ff5202;
+}
+.auth{
+    color: #1a1a1a;
+    padding: 18px 46px 19px;
+    border: 1px solid black;
+    transition: .3s;
+}
+.auth:hover{
+    border: 1px solid #ff5202;
+    background: #ff5202;
+    color: #fff;
+}
+
